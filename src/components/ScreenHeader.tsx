@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import CircleButton from './CircleButton';
-import { colors } from '../../../bank-recovery/src/theme/colors';
-import { fonts } from '../../../bank-recovery/src/theme/fonts';
+import { colors } from '../theme/colors';
+import { fonts } from '../theme/fonts';
 
 interface Props {
   title: string;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Svg, { Defs, LinearGradient, Stop, Path, Line, Circle } from 'react-native-svg';
-import { colors } from '../../../bank-recovery/src/theme/colors';
+import { colors } from '../theme/colors';
 
 interface Props {
   data: number[];
@@ -22,7 +22,7 @@ export default function LineChart({ data, selected, width, height }: Props) {
     y: PAD_Y + (1 - (v - min) / range) * (height - PAD_Y * 2),
   }));
 
-
+  // Catmull-Rom -> Bezier: тегіс қисық
   let d = `M${pts[0].x},${pts[0].y}`;
   for (let i = 0; i < pts.length - 1; i++) {
     const p0 = pts[i - 1] ?? pts[i];

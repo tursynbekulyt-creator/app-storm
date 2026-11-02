@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable, StyleSheet, StyleProp, ViewStyle } from 'react-native';
-import { colors } from '../../../bank-recovery/src/theme/colors';
+import { colors } from '../theme/colors';
 
 interface Props {
   onPress?: () => void;

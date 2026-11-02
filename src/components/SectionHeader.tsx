@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet, StyleProp, ViewStyle } from 'react-native';
-import { colors } from '../../../bank-recovery/src/theme/colors';
-import { fonts } from '../../../bank-recovery/src/theme/fonts';
+import { colors } from '../theme/colors';
+import { fonts } from '../theme/fonts';
 
 interface Props {
   title: string;

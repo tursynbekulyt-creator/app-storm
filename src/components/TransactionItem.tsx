@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
-import { colors } from '../../../bank-recovery/src/theme/colors';
-import { fonts } from '../../../bank-recovery/src/theme/fonts';
-import { Transaction, formatAmount } from '../../../bank-recovery/src/data/transactions';
+import { colors } from '../theme/colors';
+import { fonts } from '../theme/fonts';
+import { Transaction, formatAmount } from '../data/transactions';
 
 interface Props {
   item: Transaction;

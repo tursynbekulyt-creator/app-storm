@@ -3,8 +3,8 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import { colors } from '../../../bank-recovery/src/theme/colors';
-import { fonts } from '../../../bank-recovery/src/theme/fonts';
+import { colors } from '../theme/colors';
+import { fonts } from '../theme/fonts';
 
 const tabs: Record<string, { label: string; icon: string }> = {
   Home: { label: 'Home', icon: 'home-outline' },

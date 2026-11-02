@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, StyleSheet, StyleProp, ViewStyle } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
-import { colors } from '../../../bank-recovery/src/theme/colors';
-import { fonts } from '../../../bank-recovery/src/theme/fonts';
-import { BankCard } from '../../../bank-recovery/src/data/cards';
+import { colors } from '../theme/colors';
+import { fonts } from '../theme/fonts';
+import { BankCard } from '../data/cards';
 
 export function MastercardLogo({ size = 22 }: { size?: number }) {
   return (
