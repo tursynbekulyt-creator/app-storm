@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "BankPick",
+    "slug": "bankpick-financial-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#161622"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#161622"
+      }
+    }
+  }
+}
